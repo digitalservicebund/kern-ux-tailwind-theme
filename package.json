@@ -1,0 +1,43 @@
+{
+  "name": "@digitalservice4germany/npm-package-example",
+  "version": "0.0.0-development",
+  "description": "example package",
+  "main": "index.js",
+  "scripts": {
+    "build": "cp src/index.js package.json README.md dist",
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/digitalservicebund/npm-package-example.git"
+  },
+  "keywords": [],
+  "author": "Joschka de Cuveland <joschka.decuveland@digitalservice.bund.de>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next",
+      "next-major",
+      {
+        "name": "alpha",
+        "prerelease": true
+      },
+      {
+        "name": "beta",
+        "prerelease": true
+      }
+    ]
+  },
+  "homepage": "https://github.com/digitalservicebund/npm-package-example#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.0",
+    "@commitlint/config-conventional": "^19.8.0",
+    "lefthook": "^1.11.10",
+    "semantic-release": "^24.2.3"
+  }
+}
