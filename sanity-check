@@ -1,0 +1,13 @@
+#!/bin/bash
+
+
+grep -P -o 'var\(--.*?\)' ./src/theme.css | sort | uniq | sed 's/var(//' | sed 's/)//' > used_variables.txt
+
+grep -P -o ' --.*?:' ./node_modules/@kern-ux/native/dist/kern.css | sort | uniq | sed 's/^ //' | sed 's/://' > provided_variables.txt
+
+while read p; do
+  if ! grep -xqFe "$p" "provided_variables.txt"; then
+       echo -e "$p does not exist in provided variables!"
+       exit 1
+  fi
+done <used_variables.txt

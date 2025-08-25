@@ -1,0 +1,4 @@
+/* kern styles must be in the base layer */
+@import "./node_modules/@kern-ux/native/dist/kern.css" layer(base);
+@import "tailwindcss";
+@import "./src/theme.css";

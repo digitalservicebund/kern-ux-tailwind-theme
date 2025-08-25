@@ -1,11 +1,11 @@
 {
-  "name": "@digitalservice4germany/npm-package-example",
+  "name": "@digitalservicebund/kern-ux-tailwind-theme",
   "version": "0.0.0-development",
-  "description": "example package",
-  "main": "index.js",
+  "description": "Tailwind v4+ theme using KERN UX tokens",
   "scripts": {
-    "build": "cp src/index.js package.json README.md dist",
-    "test": "exit 0"
+    "build": "cp src/theme.css package.json README.md dist",
+    "dev": "npx @tailwindcss/cli -i ./styles.css -o output.css --watch",
+    "test": "./sanity-check"
   },
   "repository": {
     "type": "git",
@@ -33,11 +33,16 @@
       }
     ]
   },
-  "homepage": "https://github.com/digitalservicebund/npm-package-example#readme",
+  "homepage": "https://github.com/digitalservicebund/kern-ux-tailwind-theme#readme",
   "devDependencies": {
     "@commitlint/cli": "^19.8.0",
     "@commitlint/config-conventional": "^19.8.0",
+    "@tailwindcss/cli": "^4.1.12",
     "lefthook": "^1.11.10",
     "semantic-release": "^24.2.3"
+  },
+  "peerDependencies": {
+    "@kern-ux/native": "^2.3.0",
+    "tailwindcss": "^4.1.12"
   }
 }

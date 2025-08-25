@@ -1,2 +1,5 @@
 node_modules
 dist
+output.css
+provided_variables.txt
+used_variables.txt

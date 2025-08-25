@@ -1,0 +1,409 @@
+@theme inline {
+  --font-*: initial;
+  --font-kern-default: var(--kern-typography-font-family-default);
+  --font-kern-sans: var(--kern-typography-font-family-fira-sans);
+  --font-kern-mono: var(--kern-typography-font-family-fira-mono);
+  /* no serif font available in KERN */
+
+  --color-*: initial;
+
+  --color-kern-darkblue-025: oklch(var(--kern-darkblue-025-lightness) var(--kern-darkblue-025-chroma) var(--kern-darkblue-025-hue));
+  --color-kern-darkblue-050: oklch(var(--kern-darkblue-050-lightness) var(--kern-darkblue-050-chroma) var(--kern-darkblue-050-hue));
+  --color-kern-darkblue-100: oklch(var(--kern-darkblue-100-lightness) var(--kern-darkblue-100-chroma) var(--kern-darkblue-100-hue));
+  --color-kern-darkblue-150: oklch(var(--kern-darkblue-150-lightness) var(--kern-darkblue-150-chroma) var(--kern-darkblue-150-hue));
+  --color-kern-darkblue-200: oklch(var(--kern-darkblue-200-lightness) var(--kern-darkblue-200-chroma) var(--kern-darkblue-200-hue));
+  --color-kern-darkblue-250: oklch(var(--kern-darkblue-250-lightness) var(--kern-darkblue-250-chroma) var(--kern-darkblue-250-hue));
+  --color-kern-darkblue-300: oklch(var(--kern-darkblue-300-lightness) var(--kern-darkblue-300-chroma) var(--kern-darkblue-300-hue));
+  --color-kern-darkblue-350: oklch(var(--kern-darkblue-350-lightness) var(--kern-darkblue-350-chroma) var(--kern-darkblue-350-hue));
+  --color-kern-darkblue-400: oklch(var(--kern-darkblue-400-lightness) var(--kern-darkblue-400-chroma) var(--kern-darkblue-400-hue));
+  --color-kern-darkblue-450: oklch(var(--kern-darkblue-450-lightness) var(--kern-darkblue-450-chroma) var(--kern-darkblue-450-hue));
+  --color-kern-darkblue-500: oklch(var(--kern-darkblue-500-lightness) var(--kern-darkblue-500-chroma) var(--kern-darkblue-500-hue));
+  --color-kern-darkblue-550: oklch(var(--kern-darkblue-550-lightness) var(--kern-darkblue-550-chroma) var(--kern-darkblue-550-hue));
+  --color-kern-darkblue-600: oklch(var(--kern-darkblue-600-lightness) var(--kern-darkblue-600-chroma) var(--kern-darkblue-600-hue));
+  --color-kern-darkblue-650: oklch(var(--kern-darkblue-650-lightness) var(--kern-darkblue-650-chroma) var(--kern-darkblue-650-hue));
+  --color-kern-darkblue-700: oklch(var(--kern-darkblue-700-lightness) var(--kern-darkblue-700-chroma) var(--kern-darkblue-700-hue));
+  --color-kern-darkblue-750: oklch(var(--kern-darkblue-750-lightness) var(--kern-darkblue-750-chroma) var(--kern-darkblue-750-hue));
+  --color-kern-darkblue-800: oklch(var(--kern-darkblue-800-lightness) var(--kern-darkblue-800-chroma) var(--kern-darkblue-800-hue));
+  --color-kern-darkblue-850: oklch(var(--kern-darkblue-850-lightness) var(--kern-darkblue-850-chroma) var(--kern-darkblue-850-hue));
+  --color-kern-darkblue-900: oklch(var(--kern-darkblue-900-lightness) var(--kern-darkblue-900-chroma) var(--kern-darkblue-900-hue));
+  --color-kern-darkblue-950: oklch(var(--kern-darkblue-950-lightness) var(--kern-darkblue-950-chroma) var(--kern-darkblue-950-hue));
+
+  --color-kern-lightblue-025: oklch(var(--kern-lightblue-025-lightness) var(--kern-lightblue-025-chroma) var(--kern-lightblue-025-hue));
+  --color-kern-lightblue-050: oklch(var(--kern-lightblue-050-lightness) var(--kern-lightblue-050-chroma) var(--kern-lightblue-050-hue));
+  --color-kern-lightblue-100: oklch(var(--kern-lightblue-100-lightness) var(--kern-lightblue-100-chroma) var(--kern-lightblue-100-hue));
+  --color-kern-lightblue-150: oklch(var(--kern-lightblue-150-lightness) var(--kern-lightblue-150-chroma) var(--kern-lightblue-150-hue));
+  --color-kern-lightblue-200: oklch(var(--kern-lightblue-200-lightness) var(--kern-lightblue-200-chroma) var(--kern-lightblue-200-hue));
+  --color-kern-lightblue-250: oklch(var(--kern-lightblue-250-lightness) var(--kern-lightblue-250-chroma) var(--kern-lightblue-250-hue));
+  --color-kern-lightblue-300: oklch(var(--kern-lightblue-300-lightness) var(--kern-lightblue-300-chroma) var(--kern-lightblue-300-hue));
+  --color-kern-lightblue-350: oklch(var(--kern-lightblue-350-lightness) var(--kern-lightblue-350-chroma) var(--kern-lightblue-350-hue));
+  --color-kern-lightblue-400: oklch(var(--kern-lightblue-400-lightness) var(--kern-lightblue-400-chroma) var(--kern-lightblue-400-hue));
+  --color-kern-lightblue-450: oklch(var(--kern-lightblue-450-lightness) var(--kern-lightblue-450-chroma) var(--kern-lightblue-450-hue));
+  --color-kern-lightblue-500: oklch(var(--kern-lightblue-500-lightness) var(--kern-lightblue-500-chroma) var(--kern-lightblue-500-hue));
+  --color-kern-lightblue-550: oklch(var(--kern-lightblue-550-lightness) var(--kern-lightblue-550-chroma) var(--kern-lightblue-550-hue));
+  --color-kern-lightblue-600: oklch(var(--kern-lightblue-600-lightness) var(--kern-lightblue-600-chroma) var(--kern-lightblue-600-hue));
+  --color-kern-lightblue-650: oklch(var(--kern-lightblue-650-lightness) var(--kern-lightblue-650-chroma) var(--kern-lightblue-650-hue));
+  --color-kern-lightblue-700: oklch(var(--kern-lightblue-700-lightness) var(--kern-lightblue-700-chroma) var(--kern-lightblue-700-hue));
+  --color-kern-lightblue-750: oklch(var(--kern-lightblue-750-lightness) var(--kern-lightblue-750-chroma) var(--kern-lightblue-750-hue));
+  --color-kern-lightblue-800: oklch(var(--kern-lightblue-800-lightness) var(--kern-lightblue-800-chroma) var(--kern-lightblue-800-hue));
+  --color-kern-lightblue-850: oklch(var(--kern-lightblue-850-lightness) var(--kern-lightblue-850-chroma) var(--kern-lightblue-850-hue));
+  --color-kern-lightblue-900: oklch(var(--kern-lightblue-900-lightness) var(--kern-lightblue-900-chroma) var(--kern-lightblue-900-hue));
+  --color-kern-lightblue-950: oklch(var(--kern-lightblue-950-lightness) var(--kern-lightblue-950-chroma) var(--kern-lightblue-950-hue));
+
+  --color-kern-turquoise-025: oklch(var(--kern-turquoise-025-lightness) var(--kern-turquoise-025-chroma) var(--kern-turquoise-025-hue));
+  --color-kern-turquoise-050: oklch(var(--kern-turquoise-050-lightness) var(--kern-turquoise-050-chroma) var(--kern-turquoise-050-hue));
+  --color-kern-turquoise-100: oklch(var(--kern-turquoise-100-lightness) var(--kern-turquoise-100-chroma) var(--kern-turquoise-100-hue));
+  --color-kern-turquoise-150: oklch(var(--kern-turquoise-150-lightness) var(--kern-turquoise-150-chroma) var(--kern-turquoise-150-hue));
+  --color-kern-turquoise-200: oklch(var(--kern-turquoise-200-lightness) var(--kern-turquoise-200-chroma) var(--kern-turquoise-200-hue));
+  --color-kern-turquoise-250: oklch(var(--kern-turquoise-250-lightness) var(--kern-turquoise-250-chroma) var(--kern-turquoise-250-hue));
+  --color-kern-turquoise-300: oklch(var(--kern-turquoise-300-lightness) var(--kern-turquoise-300-chroma) var(--kern-turquoise-300-hue));
+  --color-kern-turquoise-350: oklch(var(--kern-turquoise-350-lightness) var(--kern-turquoise-350-chroma) var(--kern-turquoise-350-hue));
+  --color-kern-turquoise-400: oklch(var(--kern-turquoise-400-lightness) var(--kern-turquoise-400-chroma) var(--kern-turquoise-400-hue));
+  --color-kern-turquoise-450: oklch(var(--kern-turquoise-450-lightness) var(--kern-turquoise-450-chroma) var(--kern-turquoise-450-hue));
+  --color-kern-turquoise-500: oklch(var(--kern-turquoise-500-lightness) var(--kern-turquoise-500-chroma) var(--kern-turquoise-500-hue));
+  --color-kern-turquoise-550: oklch(var(--kern-turquoise-550-lightness) var(--kern-turquoise-550-chroma) var(--kern-turquoise-550-hue));
+  --color-kern-turquoise-600: oklch(var(--kern-turquoise-600-lightness) var(--kern-turquoise-600-chroma) var(--kern-turquoise-600-hue));
+  --color-kern-turquoise-650: oklch(var(--kern-turquoise-650-lightness) var(--kern-turquoise-650-chroma) var(--kern-turquoise-650-hue));
+  --color-kern-turquoise-700: oklch(var(--kern-turquoise-700-lightness) var(--kern-turquoise-700-chroma) var(--kern-turquoise-700-hue));
+  --color-kern-turquoise-750: oklch(var(--kern-turquoise-750-lightness) var(--kern-turquoise-750-chroma) var(--kern-turquoise-750-hue));
+  --color-kern-turquoise-800: oklch(var(--kern-turquoise-800-lightness) var(--kern-turquoise-800-chroma) var(--kern-turquoise-800-hue));
+  --color-kern-turquoise-850: oklch(var(--kern-turquoise-850-lightness) var(--kern-turquoise-850-chroma) var(--kern-turquoise-850-hue));
+  --color-kern-turquoise-900: oklch(var(--kern-turquoise-900-lightness) var(--kern-turquoise-900-chroma) var(--kern-turquoise-900-hue));
+  --color-kern-turquoise-950: oklch(var(--kern-turquoise-950-lightness) var(--kern-turquoise-950-chroma) var(--kern-turquoise-950-hue));
+
+  --color-kern-green-025: oklch(var(--kern-green-025-lightness) var(--kern-green-025-chroma) var(--kern-green-025-hue));
+  --color-kern-green-050: oklch(var(--kern-green-050-lightness) var(--kern-green-050-chroma) var(--kern-green-050-hue));
+  --color-kern-green-100: oklch(var(--kern-green-100-lightness) var(--kern-green-100-chroma) var(--kern-green-100-hue));
+  --color-kern-green-150: oklch(var(--kern-green-150-lightness) var(--kern-green-150-chroma) var(--kern-green-150-hue));
+  --color-kern-green-200: oklch(var(--kern-green-200-lightness) var(--kern-green-200-chroma) var(--kern-green-200-hue));
+  --color-kern-green-250: oklch(var(--kern-green-250-lightness) var(--kern-green-250-chroma) var(--kern-green-250-hue));
+  --color-kern-green-300: oklch(var(--kern-green-300-lightness) var(--kern-green-300-chroma) var(--kern-green-300-hue));
+  --color-kern-green-350: oklch(var(--kern-green-350-lightness) var(--kern-green-350-chroma) var(--kern-green-350-hue));
+  --color-kern-green-400: oklch(var(--kern-green-400-lightness) var(--kern-green-400-chroma) var(--kern-green-400-hue));
+  --color-kern-green-450: oklch(var(--kern-green-450-lightness) var(--kern-green-450-chroma) var(--kern-green-450-hue));
+  --color-kern-green-500: oklch(var(--kern-green-500-lightness) var(--kern-green-500-chroma) var(--kern-green-500-hue));
+  --color-kern-green-550: oklch(var(--kern-green-550-lightness) var(--kern-green-550-chroma) var(--kern-green-550-hue));
+  --color-kern-green-600: oklch(var(--kern-green-600-lightness) var(--kern-green-600-chroma) var(--kern-green-600-hue));
+  --color-kern-green-650: oklch(var(--kern-green-650-lightness) var(--kern-green-650-chroma) var(--kern-green-650-hue));
+  --color-kern-green-700: oklch(var(--kern-green-700-lightness) var(--kern-green-700-chroma) var(--kern-green-700-hue));
+  --color-kern-green-750: oklch(var(--kern-green-750-lightness) var(--kern-green-750-chroma) var(--kern-green-750-hue));
+  --color-kern-green-800: oklch(var(--kern-green-800-lightness) var(--kern-green-800-chroma) var(--kern-green-800-hue));
+  --color-kern-green-850: oklch(var(--kern-green-850-lightness) var(--kern-green-850-chroma) var(--kern-green-850-hue));
+  --color-kern-green-900: oklch(var(--kern-green-900-lightness) var(--kern-green-900-chroma) var(--kern-green-900-hue));
+  --color-kern-green-950: oklch(var(--kern-green-950-lightness) var(--kern-green-950-chroma) var(--kern-green-950-hue));
+
+  --color-kern-limette-025: oklch(var(--kern-limette-025-lightness) var(--kern-limette-025-chroma) var(--kern-limette-025-hue));
+  --color-kern-limette-050: oklch(var(--kern-limette-050-lightness) var(--kern-limette-050-chroma) var(--kern-limette-050-hue));
+  --color-kern-limette-100: oklch(var(--kern-limette-100-lightness) var(--kern-limette-100-chroma) var(--kern-limette-100-hue));
+  --color-kern-limette-150: oklch(var(--kern-limette-150-lightness) var(--kern-limette-150-chroma) var(--kern-limette-150-hue));
+  --color-kern-limette-200: oklch(var(--kern-limette-200-lightness) var(--kern-limette-200-chroma) var(--kern-limette-200-hue));
+  --color-kern-limette-250: oklch(var(--kern-limette-250-lightness) var(--kern-limette-250-chroma) var(--kern-limette-250-hue));
+  --color-kern-limette-300: oklch(var(--kern-limette-300-lightness) var(--kern-limette-300-chroma) var(--kern-limette-300-hue));
+  --color-kern-limette-350: oklch(var(--kern-limette-350-lightness) var(--kern-limette-350-chroma) var(--kern-limette-350-hue));
+  --color-kern-limette-400: oklch(var(--kern-limette-400-lightness) var(--kern-limette-400-chroma) var(--kern-limette-400-hue));
+  --color-kern-limette-450: oklch(var(--kern-limette-450-lightness) var(--kern-limette-450-chroma) var(--kern-limette-450-hue));
+  --color-kern-limette-500: oklch(var(--kern-limette-500-lightness) var(--kern-limette-500-chroma) var(--kern-limette-500-hue));
+  --color-kern-limette-550: oklch(var(--kern-limette-550-lightness) var(--kern-limette-550-chroma) var(--kern-limette-550-hue));
+  --color-kern-limette-600: oklch(var(--kern-limette-600-lightness) var(--kern-limette-600-chroma) var(--kern-limette-600-hue));
+  --color-kern-limette-650: oklch(var(--kern-limette-650-lightness) var(--kern-limette-650-chroma) var(--kern-limette-650-hue));
+  --color-kern-limette-700: oklch(var(--kern-limette-700-lightness) var(--kern-limette-700-chroma) var(--kern-limette-700-hue));
+  --color-kern-limette-750: oklch(var(--kern-limette-750-lightness) var(--kern-limette-750-chroma) var(--kern-limette-750-hue));
+  --color-kern-limette-800: oklch(var(--kern-limette-800-lightness) var(--kern-limette-800-chroma) var(--kern-limette-800-hue));
+  --color-kern-limette-850: oklch(var(--kern-limette-850-lightness) var(--kern-limette-850-chroma) var(--kern-limette-850-hue));
+  --color-kern-limette-900: oklch(var(--kern-limette-900-lightness) var(--kern-limette-900-chroma) var(--kern-limette-900-hue));
+  --color-kern-limette-950: oklch(var(--kern-limette-950-lightness) var(--kern-limette-950-chroma) var(--kern-limette-950-hue));
+
+  --color-kern-yellow-025: oklch(var(--kern-yellow-025-lightness) var(--kern-yellow-025-chroma) var(--kern-yellow-025-hue));
+  --color-kern-yellow-050: oklch(var(--kern-yellow-050-lightness) var(--kern-yellow-050-chroma) var(--kern-yellow-050-hue));
+  --color-kern-yellow-100: oklch(var(--kern-yellow-100-lightness) var(--kern-yellow-100-chroma) var(--kern-yellow-100-hue));
+  --color-kern-yellow-150: oklch(var(--kern-yellow-150-lightness) var(--kern-yellow-150-chroma) var(--kern-yellow-150-hue));
+  --color-kern-yellow-200: oklch(var(--kern-yellow-200-lightness) var(--kern-yellow-200-chroma) var(--kern-yellow-200-hue));
+  --color-kern-yellow-250: oklch(var(--kern-yellow-250-lightness) var(--kern-yellow-250-chroma) var(--kern-yellow-250-hue));
+  --color-kern-yellow-300: oklch(var(--kern-yellow-300-lightness) var(--kern-yellow-300-chroma) var(--kern-yellow-300-hue));
+  --color-kern-yellow-350: oklch(var(--kern-yellow-350-lightness) var(--kern-yellow-350-chroma) var(--kern-yellow-350-hue));
+  --color-kern-yellow-400: oklch(var(--kern-yellow-400-lightness) var(--kern-yellow-400-chroma) var(--kern-yellow-400-hue));
+  --color-kern-yellow-450: oklch(var(--kern-yellow-450-lightness) var(--kern-yellow-450-chroma) var(--kern-yellow-450-hue));
+  --color-kern-yellow-500: oklch(var(--kern-yellow-500-lightness) var(--kern-yellow-500-chroma) var(--kern-yellow-500-hue));
+  --color-kern-yellow-550: oklch(var(--kern-yellow-550-lightness) var(--kern-yellow-550-chroma) var(--kern-yellow-550-hue));
+  --color-kern-yellow-600: oklch(var(--kern-yellow-600-lightness) var(--kern-yellow-600-chroma) var(--kern-yellow-600-hue));
+  --color-kern-yellow-650: oklch(var(--kern-yellow-650-lightness) var(--kern-yellow-650-chroma) var(--kern-yellow-650-hue));
+  --color-kern-yellow-700: oklch(var(--kern-yellow-700-lightness) var(--kern-yellow-700-chroma) var(--kern-yellow-700-hue));
+  --color-kern-yellow-750: oklch(var(--kern-yellow-750-lightness) var(--kern-yellow-750-chroma) var(--kern-yellow-750-hue));
+  --color-kern-yellow-800: oklch(var(--kern-yellow-800-lightness) var(--kern-yellow-800-chroma) var(--kern-yellow-800-hue));
+  --color-kern-yellow-850: oklch(var(--kern-yellow-850-lightness) var(--kern-yellow-850-chroma) var(--kern-yellow-850-hue));
+  --color-kern-yellow-900: oklch(var(--kern-yellow-900-lightness) var(--kern-yellow-900-chroma) var(--kern-yellow-900-hue));
+  --color-kern-yellow-950: oklch(var(--kern-yellow-950-lightness) var(--kern-yellow-950-chroma) var(--kern-yellow-950-hue));
+
+  --color-kern-orange-025: oklch(var(--kern-orange-025-lightness) var(--kern-orange-025-chroma) var(--kern-orange-025-hue));
+  --color-kern-orange-050: oklch(var(--kern-orange-050-lightness) var(--kern-orange-050-chroma) var(--kern-orange-050-hue));
+  --color-kern-orange-100: oklch(var(--kern-orange-100-lightness) var(--kern-orange-100-chroma) var(--kern-orange-100-hue));
+  --color-kern-orange-150: oklch(var(--kern-orange-150-lightness) var(--kern-orange-150-chroma) var(--kern-orange-150-hue));
+  --color-kern-orange-200: oklch(var(--kern-orange-200-lightness) var(--kern-orange-200-chroma) var(--kern-orange-200-hue));
+  --color-kern-orange-250: oklch(var(--kern-orange-250-lightness) var(--kern-orange-250-chroma) var(--kern-orange-250-hue));
+  --color-kern-orange-300: oklch(var(--kern-orange-300-lightness) var(--kern-orange-300-chroma) var(--kern-orange-300-hue));
+  --color-kern-orange-350: oklch(var(--kern-orange-350-lightness) var(--kern-orange-350-chroma) var(--kern-orange-350-hue));
+  --color-kern-orange-400: oklch(var(--kern-orange-400-lightness) var(--kern-orange-400-chroma) var(--kern-orange-400-hue));
+  --color-kern-orange-450: oklch(var(--kern-orange-450-lightness) var(--kern-orange-450-chroma) var(--kern-orange-450-hue));
+  --color-kern-orange-500: oklch(var(--kern-orange-500-lightness) var(--kern-orange-500-chroma) var(--kern-orange-500-hue));
+  --color-kern-orange-550: oklch(var(--kern-orange-550-lightness) var(--kern-orange-550-chroma) var(--kern-orange-550-hue));
+  --color-kern-orange-600: oklch(var(--kern-orange-600-lightness) var(--kern-orange-600-chroma) var(--kern-orange-600-hue));
+  --color-kern-orange-650: oklch(var(--kern-orange-650-lightness) var(--kern-orange-650-chroma) var(--kern-orange-650-hue));
+  --color-kern-orange-700: oklch(var(--kern-orange-700-lightness) var(--kern-orange-700-chroma) var(--kern-orange-700-hue));
+  --color-kern-orange-750: oklch(var(--kern-orange-750-lightness) var(--kern-orange-750-chroma) var(--kern-orange-750-hue));
+  --color-kern-orange-800: oklch(var(--kern-orange-800-lightness) var(--kern-orange-800-chroma) var(--kern-orange-800-hue));
+  --color-kern-orange-850: oklch(var(--kern-orange-850-lightness) var(--kern-orange-850-chroma) var(--kern-orange-850-hue));
+  --color-kern-orange-900: oklch(var(--kern-orange-900-lightness) var(--kern-orange-900-chroma) var(--kern-orange-900-hue));
+  --color-kern-orange-950: oklch(var(--kern-orange-950-lightness) var(--kern-orange-950-chroma) var(--kern-orange-950-hue));
+
+  --color-kern-red-025: oklch(var(--kern-red-025-lightness) var(--kern-red-025-chroma) var(--kern-red-025-hue));
+  --color-kern-red-050: oklch(var(--kern-red-050-lightness) var(--kern-red-050-chroma) var(--kern-red-050-hue));
+  --color-kern-red-100: oklch(var(--kern-red-100-lightness) var(--kern-red-100-chroma) var(--kern-red-100-hue));
+  --color-kern-red-150: oklch(var(--kern-red-150-lightness) var(--kern-red-150-chroma) var(--kern-red-150-hue));
+  --color-kern-red-200: oklch(var(--kern-red-200-lightness) var(--kern-red-200-chroma) var(--kern-red-200-hue));
+  --color-kern-red-250: oklch(var(--kern-red-250-lightness) var(--kern-red-250-chroma) var(--kern-red-250-hue));
+  --color-kern-red-300: oklch(var(--kern-red-300-lightness) var(--kern-red-300-chroma) var(--kern-red-300-hue));
+  --color-kern-red-350: oklch(var(--kern-red-350-lightness) var(--kern-red-350-chroma) var(--kern-red-350-hue));
+  --color-kern-red-400: oklch(var(--kern-red-400-lightness) var(--kern-red-400-chroma) var(--kern-red-400-hue));
+  --color-kern-red-450: oklch(var(--kern-red-450-lightness) var(--kern-red-450-chroma) var(--kern-red-450-hue));
+  --color-kern-red-500: oklch(var(--kern-red-500-lightness) var(--kern-red-500-chroma) var(--kern-red-500-hue));
+  --color-kern-red-550: oklch(var(--kern-red-550-lightness) var(--kern-red-550-chroma) var(--kern-red-550-hue));
+  --color-kern-red-600: oklch(var(--kern-red-600-lightness) var(--kern-red-600-chroma) var(--kern-red-600-hue));
+  --color-kern-red-650: oklch(var(--kern-red-650-lightness) var(--kern-red-650-chroma) var(--kern-red-650-hue));
+  --color-kern-red-700: oklch(var(--kern-red-700-lightness) var(--kern-red-700-chroma) var(--kern-red-700-hue));
+  --color-kern-red-750: oklch(var(--kern-red-750-lightness) var(--kern-red-750-chroma) var(--kern-red-750-hue));
+  --color-kern-red-800: oklch(var(--kern-red-800-lightness) var(--kern-red-800-chroma) var(--kern-red-800-hue));
+  --color-kern-red-850: oklch(var(--kern-red-850-lightness) var(--kern-red-850-chroma) var(--kern-red-850-hue));
+  --color-kern-red-900: oklch(var(--kern-red-900-lightness) var(--kern-red-900-chroma) var(--kern-red-900-hue));
+  --color-kern-red-950: oklch(var(--kern-red-950-lightness) var(--kern-red-950-chroma) var(--kern-red-950-hue));
+
+  --color-kern-violet-025: oklch(var(--kern-violet-025-lightness) var(--kern-violet-025-chroma) var(--kern-violet-025-hue));
+  --color-kern-violet-050: oklch(var(--kern-violet-050-lightness) var(--kern-violet-050-chroma) var(--kern-violet-050-hue));
+  --color-kern-violet-100: oklch(var(--kern-violet-100-lightness) var(--kern-violet-100-chroma) var(--kern-violet-100-hue));
+  --color-kern-violet-150: oklch(var(--kern-violet-150-lightness) var(--kern-violet-150-chroma) var(--kern-violet-150-hue));
+  --color-kern-violet-200: oklch(var(--kern-violet-200-lightness) var(--kern-violet-200-chroma) var(--kern-violet-200-hue));
+  --color-kern-violet-250: oklch(var(--kern-violet-250-lightness) var(--kern-violet-250-chroma) var(--kern-violet-250-hue));
+  --color-kern-violet-300: oklch(var(--kern-violet-300-lightness) var(--kern-violet-300-chroma) var(--kern-violet-300-hue));
+  --color-kern-violet-350: oklch(var(--kern-violet-350-lightness) var(--kern-violet-350-chroma) var(--kern-violet-350-hue));
+  --color-kern-violet-400: oklch(var(--kern-violet-400-lightness) var(--kern-violet-400-chroma) var(--kern-violet-400-hue));
+  --color-kern-violet-450: oklch(var(--kern-violet-450-lightness) var(--kern-violet-450-chroma) var(--kern-violet-450-hue));
+  --color-kern-violet-500: oklch(var(--kern-violet-500-lightness) var(--kern-violet-500-chroma) var(--kern-violet-500-hue));
+  --color-kern-violet-550: oklch(var(--kern-violet-550-lightness) var(--kern-violet-550-chroma) var(--kern-violet-550-hue));
+  --color-kern-violet-600: oklch(var(--kern-violet-600-lightness) var(--kern-violet-600-chroma) var(--kern-violet-600-hue));
+  --color-kern-violet-650: oklch(var(--kern-violet-650-lightness) var(--kern-violet-650-chroma) var(--kern-violet-650-hue));
+  --color-kern-violet-700: oklch(var(--kern-violet-700-lightness) var(--kern-violet-700-chroma) var(--kern-violet-700-hue));
+  --color-kern-violet-750: oklch(var(--kern-violet-750-lightness) var(--kern-violet-750-chroma) var(--kern-violet-750-hue));
+  --color-kern-violet-800: oklch(var(--kern-violet-800-lightness) var(--kern-violet-800-chroma) var(--kern-violet-800-hue));
+  --color-kern-violet-850: oklch(var(--kern-violet-850-lightness) var(--kern-violet-850-chroma) var(--kern-violet-850-hue));
+  --color-kern-violet-900: oklch(var(--kern-violet-900-lightness) var(--kern-violet-900-chroma) var(--kern-violet-900-hue));
+  --color-kern-violet-950: oklch(var(--kern-violet-950-lightness) var(--kern-violet-950-chroma) var(--kern-violet-950-hue));
+
+  --color-kern-neutral-000: oklch(var(--kern-neutral-000-lightness) var(--kern-neutral-000-chroma) var(--kern-neutral-000-hue));
+  --color-kern-neutral-025: oklch(var(--kern-neutral-025-lightness) var(--kern-neutral-025-chroma) var(--kern-neutral-025-hue));
+  --color-kern-neutral-050: oklch(var(--kern-neutral-050-lightness) var(--kern-neutral-050-chroma) var(--kern-neutral-050-hue));
+  --color-kern-neutral-100: oklch(var(--kern-neutral-100-lightness) var(--kern-neutral-100-chroma) var(--kern-neutral-100-hue));
+  --color-kern-neutral-150: oklch(var(--kern-neutral-150-lightness) var(--kern-neutral-150-chroma) var(--kern-neutral-150-hue));
+  --color-kern-neutral-200: oklch(var(--kern-neutral-200-lightness) var(--kern-neutral-200-chroma) var(--kern-neutral-200-hue));
+  --color-kern-neutral-250: oklch(var(--kern-neutral-250-lightness) var(--kern-neutral-250-chroma) var(--kern-neutral-250-hue));
+  --color-kern-neutral-300: oklch(var(--kern-neutral-300-lightness) var(--kern-neutral-300-chroma) var(--kern-neutral-300-hue));
+  --color-kern-neutral-350: oklch(var(--kern-neutral-350-lightness) var(--kern-neutral-350-chroma) var(--kern-neutral-350-hue));
+  --color-kern-neutral-400: oklch(var(--kern-neutral-400-lightness) var(--kern-neutral-400-chroma) var(--kern-neutral-400-hue));
+  --color-kern-neutral-450: oklch(var(--kern-neutral-450-lightness) var(--kern-neutral-450-chroma) var(--kern-neutral-450-hue));
+  --color-kern-neutral-500: oklch(var(--kern-neutral-500-lightness) var(--kern-neutral-500-chroma) var(--kern-neutral-500-hue));
+  --color-kern-neutral-550: oklch(var(--kern-neutral-550-lightness) var(--kern-neutral-550-chroma) var(--kern-neutral-550-hue));
+  --color-kern-neutral-600: oklch(var(--kern-neutral-600-lightness) var(--kern-neutral-600-chroma) var(--kern-neutral-600-hue));
+  --color-kern-neutral-650: oklch(var(--kern-neutral-650-lightness) var(--kern-neutral-650-chroma) var(--kern-neutral-650-hue));
+  --color-kern-neutral-700: oklch(var(--kern-neutral-700-lightness) var(--kern-neutral-700-chroma) var(--kern-neutral-700-hue));
+  --color-kern-neutral-750: oklch(var(--kern-neutral-750-lightness) var(--kern-neutral-750-chroma) var(--kern-neutral-750-hue));
+  --color-kern-neutral-800: oklch(var(--kern-neutral-800-lightness) var(--kern-neutral-800-chroma) var(--kern-neutral-800-hue));
+  --color-kern-neutral-850: oklch(var(--kern-neutral-850-lightness) var(--kern-neutral-850-chroma) var(--kern-neutral-850-hue));
+  --color-kern-neutral-900: oklch(var(--kern-neutral-900-lightness) var(--kern-neutral-900-chroma) var(--kern-neutral-900-hue));
+  --color-kern-neutral-950: oklch(var(--kern-neutral-950-lightness) var(--kern-neutral-950-chroma) var(--kern-neutral-950-hue));
+  --color-kern-neutral-1000: oklch(var(--kern-neutral-1000-lightness) var(--kern-neutral-1000-chroma) var(--kern-neutral-1000-hue));
+
+  --color-kern-dataport-red-025: oklch(var(--kern-dataport-red-025-lightness) var(--kern-dataport-red-025-chroma) var(--kern-dataport-red-025-hue));
+  --color-kern-dataport-red-050: oklch(var(--kern-dataport-red-050-lightness) var(--kern-dataport-red-050-chroma) var(--kern-dataport-red-050-hue));
+  --color-kern-dataport-red-100: oklch(var(--kern-dataport-red-100-lightness) var(--kern-dataport-red-100-chroma) var(--kern-dataport-red-100-hue));
+  --color-kern-dataport-red-150: oklch(var(--kern-dataport-red-150-lightness) var(--kern-dataport-red-150-chroma) var(--kern-dataport-red-150-hue));
+  --color-kern-dataport-red-200: oklch(var(--kern-dataport-red-200-lightness) var(--kern-dataport-red-200-chroma) var(--kern-dataport-red-200-hue));
+  --color-kern-dataport-red-250: oklch(var(--kern-dataport-red-250-lightness) var(--kern-dataport-red-250-chroma) var(--kern-dataport-red-250-hue));
+  --color-kern-dataport-red-300: oklch(var(--kern-dataport-red-300-lightness) var(--kern-dataport-red-300-chroma) var(--kern-dataport-red-300-hue));
+  --color-kern-dataport-red-350: oklch(var(--kern-dataport-red-350-lightness) var(--kern-dataport-red-350-chroma) var(--kern-dataport-red-350-hue));
+  --color-kern-dataport-red-400: oklch(var(--kern-dataport-red-400-lightness) var(--kern-dataport-red-400-chroma) var(--kern-dataport-red-400-hue));
+  --color-kern-dataport-red-450: oklch(var(--kern-dataport-red-450-lightness) var(--kern-dataport-red-450-chroma) var(--kern-dataport-red-450-hue));
+  --color-kern-dataport-red-500: oklch(var(--kern-dataport-red-500-lightness) var(--kern-dataport-red-500-chroma) var(--kern-dataport-red-500-hue));
+  --color-kern-dataport-red-550: oklch(var(--kern-dataport-red-550-lightness) var(--kern-dataport-red-550-chroma) var(--kern-dataport-red-550-hue));
+  --color-kern-dataport-red-600: oklch(var(--kern-dataport-red-600-lightness) var(--kern-dataport-red-600-chroma) var(--kern-dataport-red-600-hue));
+  --color-kern-dataport-red-650: oklch(var(--kern-dataport-red-650-lightness) var(--kern-dataport-red-650-chroma) var(--kern-dataport-red-650-hue));
+  --color-kern-dataport-red-700: oklch(var(--kern-dataport-red-700-lightness) var(--kern-dataport-red-700-chroma) var(--kern-dataport-red-700-hue));
+  --color-kern-dataport-red-750: oklch(var(--kern-dataport-red-750-lightness) var(--kern-dataport-red-750-chroma) var(--kern-dataport-red-750-hue));
+  --color-kern-dataport-red-800: oklch(var(--kern-dataport-red-800-lightness) var(--kern-dataport-red-800-chroma) var(--kern-dataport-red-800-hue));
+  --color-kern-dataport-red-850: oklch(var(--kern-dataport-red-850-lightness) var(--kern-dataport-red-850-chroma) var(--kern-dataport-red-850-hue));
+  --color-kern-dataport-red-900: oklch(var(--kern-dataport-red-900-lightness) var(--kern-dataport-red-900-chroma) var(--kern-dataport-red-900-hue));
+  --color-kern-dataport-red-950: oklch(var(--kern-dataport-red-950-lightness) var(--kern-dataport-red-950-chroma) var(--kern-dataport-red-950-hue));
+
+  --color-kern-gray-025: oklch(var(--kern-gray-025-lightness) var(--kern-gray-025-chroma) var(--kern-gray-025-hue)); /* sic! only this gray with a */
+  --color-kern-grey-050: oklch(var(--kern-grey-050-lightness) var(--kern-grey-050-chroma) var(--kern-grey-050-hue));
+  --color-kern-grey-100: oklch(var(--kern-grey-100-lightness) var(--kern-grey-100-chroma) var(--kern-grey-100-hue));
+  --color-kern-grey-150: oklch(var(--kern-grey-150-lightness) var(--kern-grey-150-chroma) var(--kern-grey-150-hue));
+  --color-kern-grey-200: oklch(var(--kern-grey-200-lightness) var(--kern-grey-200-chroma) var(--kern-grey-200-hue));
+  --color-kern-grey-250: oklch(var(--kern-grey-250-lightness) var(--kern-grey-250-chroma) var(--kern-grey-250-hue));
+  --color-kern-grey-300: oklch(var(--kern-grey-300-lightness) var(--kern-grey-300-chroma) var(--kern-grey-300-hue));
+  --color-kern-grey-350: oklch(var(--kern-grey-350-lightness) var(--kern-grey-350-chroma) var(--kern-grey-350-hue));
+  --color-kern-grey-400: oklch(var(--kern-grey-400-lightness) var(--kern-grey-400-chroma) var(--kern-grey-400-hue));
+  --color-kern-grey-450: oklch(var(--kern-grey-450-lightness) var(--kern-grey-450-chroma) var(--kern-grey-450-hue));
+  --color-kern-grey-500: oklch(var(--kern-grey-500-lightness) var(--kern-grey-500-chroma) var(--kern-grey-500-hue));
+  --color-kern-grey-550: oklch(var(--kern-grey-550-lightness) var(--kern-grey-550-chroma) var(--kern-grey-550-hue));
+  --color-kern-grey-600: oklch(var(--kern-grey-600-lightness) var(--kern-grey-600-chroma) var(--kern-grey-600-hue));
+  --color-kern-grey-650: oklch(var(--kern-grey-650-lightness) var(--kern-grey-650-chroma) var(--kern-grey-650-hue));
+  --color-kern-grey-700: oklch(var(--kern-grey-700-lightness) var(--kern-grey-700-chroma) var(--kern-grey-700-hue));
+  --color-kern-grey-750: oklch(var(--kern-grey-750-lightness) var(--kern-grey-750-chroma) var(--kern-grey-750-hue));
+  --color-kern-grey-800: oklch(var(--kern-grey-800-lightness) var(--kern-grey-800-chroma) var(--kern-grey-800-hue));
+  --color-kern-grey-850: oklch(var(--kern-grey-850-lightness) var(--kern-grey-850-chroma) var(--kern-grey-850-hue));
+  --color-kern-grey-900: oklch(var(--kern-grey-900-lightness) var(--kern-grey-900-chroma) var(--kern-grey-900-hue));
+  --color-kern-grey-950: oklch(var(--kern-grey-950-lightness) var(--kern-grey-950-chroma) var(--kern-grey-950-hue));
+
+  --color-kern-action-default: var(--kern-color-action-default);
+  --color-kern-action-on-default: var(--kern-color-action-on-default);
+  --color-kern-action-visited: var(--kern-color-action-visited);
+  --color-kern-action-focus-background: var(--kern-color-action-focus-background);
+  --color-kern-action-focus-border-inside: var(--kern-color-action-focus-border-inside);
+  --color-kern-action-focus-border-outside: var(--kern-color-action-focus-border-outside);
+
+  --color-kern-action-state-indicator-default: var(--kern-color-action-state-indicator-default);
+  --color-kern-action-state-indicator-shade: var(--kern-color-action-state-indicator-shade);
+  --color-kern-action-state-indicator-shade-hover: var(--kern-color-action-state-indicator-shade-hover);
+  --color-kern-action-state-indicator-shade-active: var(--kern-color-action-state-indicator-shade-active);
+  --color-kern-action-state-indicator-tint: var(--kern-color-action-state-indicator-tint);
+  --color-kern-action-state-indicator-tint-hover: var(--kern-color-action-state-indicator-tint-hover);
+  --color-kern-action-state-indicator-tint-active: var(--kern-color-action-state-indicator-tint-active);
+
+  --color-kern-feedback-danger: var(--kern-color-feedback-danger);
+  --color-kern-feedback-danger-background: var(--kern-color-feedback-danger-background);
+  --color-kern-feedback-info: var(--kern-color-feedback-info);
+  --color-kern-feedback-info-background: var(--kern-color-feedback-info-background);
+  --color-kern-feedback-success: var(--kern-color-feedback-success);
+  --color-kern-feedback-success-background: var(--kern-color-feedback-success-background);
+  --color-kern-feedback-warning: var(--kern-color-feedback-warning);
+  --color-kern-feedback-warning-background: var(--kern-color-feedback-warning-background);
+  
+  --color-kern-feedback-loader: var(--kern-color-feedback-loader);
+  --color-kern-feedback-loader-background: var(--kern-color-feedback-loader-background);
+  
+  --color-kern-form-input-background: var(--kern-color-form-input-background);
+  --color-kern-form-input-background-inverted: var(--kern-color-form-input-background-inverted);
+  --color-kern-form-input-border: var(--kern-color-form-input-border);
+
+  --color-kern-layout-border: var(--kern-color-layout-border);
+
+  --color-kern-layout-text-default: var(--kern-color-layout-text-default);
+  --color-kern-layout-text-inverse: var(--kern-color-layout-text-inverse);
+  --color-kern-layout-text-muted: var(--kern-color-layout-text-muted);
+
+  --color-kern-layout-background-default: var(--kern-color-layout-background-default);
+  --color-kern-layout-background-hued: var(--kern-color-layout-background-hued);
+  --color-kern-layout-background-overlay: var(--kern-color-layout-background-overlay);
+  --color-kern-layout-background-inverted: var(--kern-color-layout-background-inverted);
+
+  --color-kern-theme-action-default: var(--theme-action-default); /* sic! no kern prefix */
+
+
+  /* sizes: --kern-0 - --kern-1920 */
+  --spacing: 0.0625rem;
+
+  /* --kern-metric-dimension-* */
+  --spacing-kern-dimension-2x-small: var(--kern-metric-dimension-2x-small);
+  --spacing-kern-dimension-x-small: var(--kern-metric-dimension-x-small);
+  --spacing-kern-dimension-small: var(--kern-metric-dimension-small);
+  --spacing-kern-dimension-default: var(--kern-metric-dimension-default);
+  --spacing-kern-dimension-large: var(--kern-metric-dimension-large);
+  --spacing-kern-dimension-x-large: var(--kern-metric-dimension-x-large);
+  --spacing-kern-dimension-2x-large: var(--kern-metric-dimension-2x-large);
+  --spacing-kern-dimension-3x-large: var(--kern-metric-dimension-3x-large);
+  --spacing-kern-dimension-4x-large: var(--kern-metric-dimension-4x-large);
+  --spacing-kern-dimension-5x-large: var(--kern-metric-dimension-5x-large);
+
+  --spacing-kern-dimension-media-small: var(--kern-metric-dimension-media-small);
+  --spacing-kern-dimension-media-default: var(--kern-metric-dimension-media-default);
+  --spacing-kern-dimension-media-large: var(--kern-metric-dimension-media-large);
+
+  /* --kern-metric-screen-size */
+  --spacing-kern-screen-size: var(--kern-metric-screen-size);
+
+  /* --kern-metric-space-* */
+  --spacing-kern-space-none: var(--kern-metric-space-none);
+  --spacing-kern-space-2x-small: var(--kern-metric-space-2x-small);
+  --spacing-kern-space-x-small: var(--kern-metric-space-x-small);
+  --spacing-kern-space-small: var(--kern-metric-space-small);
+  --spacing-kern-space-default: var(--kern-metric-space-default);
+  --spacing-kern-space-large: var(--kern-metric-space-large);
+  --spacing-kern-space-x-large: var(--kern-metric-space-x-large);
+
+  --breakpoint-*: initial;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1600px;
+  /* sic! breakpoints are not exposed as css variables */
+  /* source: https://gitlab.opencode.de/kern-ux/kern-ux-plain/-/blob/main/src/scss/core/utilities/_maps.scss?ref_type=heads */
+
+  /* disable container for now, check again */
+  --container-*: initial;
+  /* TODO */
+
+  --text-*: initial;
+  --text-kern-12: var(--kern-font-size-12);
+  --text-kern-16: var(--kern-font-size-16);
+  --text-kern-18: var(--kern-font-size-18);
+  --text-kern-20: var(--kern-font-size-20);
+  --text-kern-21: var(--kern-font-size-21);
+  --text-kern-24: var(--kern-font-size-24);
+  --text-kern-26: var(--kern-font-size-26);
+  --text-kern-32: var(--kern-font-size-32);
+  --text-kern-40: var(--kern-font-size-40);
+  --text-kern-48: var(--kern-font-size-48);
+  --text-kern-56: var(--kern-font-size-56);
+  --text-kern-72: var(--kern-font-size-72);
+  --text-kern-80: var(--kern-font-size-80);
+  --text-kern-static-small: var(--kern-typography-font-size-static-small);
+  /* sic! no line-height for small */
+  --text-kern-static-medium: var(--kern-typography-font-size-static-medium);
+  --text-kern-static-medium--line-height: var(--kern-typography-line-height-static-medium);
+  --text-kern-static-large: var(--kern-typography-font-size-static-large);
+  --text-kern-static-large--line-height: var(--kern-typography-line-height-static-large);
+  --text-kern-adaptive-medium: var(--kern-typography-font-size-adaptive-medium);
+  --text-kern-adaptive-medium--line-height: var(--kern-typography-line-height-adaptive-medium);
+  --text-kern-adaptive-large: var(--kern-typography-font-size-adaptive-large);
+  --text-kern-adaptive-large--line-height: var(--kern-typography-line-height-adaptive-large);
+  --text-kern-adaptive-x-large: var(--kern-typography-font-size-adaptive-x-large);
+  --text-kern-adaptive-x-large--line-height: var(--kern-typography-line-height-adaptive-x-large);
+  --text-kern-adaptive-2x-large: var(--kern-typography-font-size-adaptive-2x-large);
+  --text-kern-adaptive-2x-large--line-height: var(--kern-typography-line-height-adaptive-2x-large);
+
+  /* font-weight is compatible between KERN and Tailwind */
+
+  --tracking-*: initial;
+  /* disable, because no tracking (letter-spacing) defined in KERN */
+  
+  --leading-*: initial;
+  /* disable, because no leading (line-height) defined in KERN */
+
+  --radius-*: initial;
+  --radius-kern-none: var(--kern-metric-border-radius-none);
+  --radius-kern-small: var(--kern-metric-border-radius-small);
+  --radius-kern-default: var(--kern-metric-border-radius-default);
+  --radius-kern-large: var(--kern-metric-border-radius-large);
+  --radius-kern-circle: var(--kern-metric-border-radius-circle);
+
+  /* disable all the shadows, because they are not defined in KERN */
+  --shadow-*: initial;
+  --inset-shadow-*: initial;
+  --drop-shadow-*: initial;
+  --text-shadow-*: initial;
+
+  /* disable because not defined in KERN */
+  --blur-*: initial;
+  --perspective-*: initial;
+  --aspect-*: initial;
+  --ease-*: initial;
+  --animate-*: initial;
+}
