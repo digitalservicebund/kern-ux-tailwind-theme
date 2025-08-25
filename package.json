@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/digitalservicebund/npm-package-example.git"
+    "url": "git+ssh://git@github.com/digitalservicebund/kern-ux-tailwind-theme.git"
   },
   "keywords": [],
   "author": "Joschka de Cuveland <joschka.decuveland@digitalservice.bund.de>",
