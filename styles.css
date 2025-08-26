@@ -1,4 +1,16 @@
-/* kern styles must be in the base layer */
-@import "./node_modules/@kern-ux/native/dist/kern.css" layer(base);
-@import "tailwindcss";
+@layer theme, base, utilities;
+
+/* KERN UX */
+@import "@kern-ux/native/dist/fonts/fira-sans.css" layer(base);
+@import "@kern-ux/native/dist/kern.css" layer(base);
+
+/* Tailwind without preflight (normalize) */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* use the KERN UX theme */
+/* @import "@digitalservicebund/kern-ux-tailwind-theme/theme.css"; */
 @import "./src/theme.css";
+
+/* disable Tailwind's container */
+@source not inline("container");

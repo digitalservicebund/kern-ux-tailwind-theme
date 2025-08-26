@@ -5,7 +5,7 @@
   "scripts": {
     "build": "cp src/theme.css package.json README.md dist",
     "dev": "npx @tailwindcss/cli -i ./styles.css -o output.css --watch",
-    "test": "./sanity-check"
+    "test": "./test"
   },
   "repository": {
     "type": "git",

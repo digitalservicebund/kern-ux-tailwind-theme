@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+
+# grep all variables used by the theme
+grep -P -o 'var\(--.*?\)' ./src/theme.css | sort | uniq | sed 's/var(//' | sed 's/)//' > used_variables.txt
+
+# grep all variables provided by KERN
+grep -P -o ' --.*?:' ./node_modules/@kern-ux/native/dist/kern.css | sort | uniq | sed 's/^ //' | sed 's/://' > provided_variables.txt
+
+# check, if all referenced variables are (still) provided by KERN
+# if not, that is an error!
+while read -r p; do
+  if ! grep -xqFe "$p" "provided_variables.txt"; then
+       echo -e "$p does not exist in provided variables!"
+       exit 1
+  fi
+done <used_variables.txt
+
+# check if all provided (minus on purpose unused variables) are used
+# if not, probably some new variables werde added by KERN
+while read -r p; do
+  if ! grep -xqFe "$p" "used_variables.txt"; then
+    if ! grep -xqFe "$p" "on_purpose_unused_variables.txt"; then
+       echo -e "$p is NEW. Maybe use it in the theme or add it to unused variables"
+       exit 1
+    fi
+  fi
+done <provided_variables.txt
