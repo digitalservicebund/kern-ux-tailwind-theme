@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/digitalservicebund/kern-ux-tailwind-theme#readme",
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
+    "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^19.8.1",
     "@tailwindcss/cli": "^4.1.12",
     "lefthook": "^1.12.3",
