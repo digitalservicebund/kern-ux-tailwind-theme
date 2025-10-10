@@ -399,11 +399,4 @@
   --inset-shadow-*: initial;
   --drop-shadow-*: initial;
   --text-shadow-*: initial;
-
-  /* disable because not defined in KERN */
-  --blur-*: initial;
-  --perspective-*: initial;
-  --aspect-*: initial;
-  --ease-*: initial;
-  --animate-*: initial;
 }
