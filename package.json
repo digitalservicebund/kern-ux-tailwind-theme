@@ -35,11 +35,11 @@
   },
   "homepage": "https://github.com/digitalservicebund/kern-ux-tailwind-theme#readme",
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "@tailwindcss/cli": "^4.1.12",
-    "lefthook": "^1.12.3",
-    "semantic-release": "^24.2.7"
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@tailwindcss/cli": "^4.1.14",
+    "lefthook": "^1.13.6",
+    "semantic-release": "^24.2.9"
   },
   "peerDependencies": {
     "@kern-ux/native": "^2.3.0",
