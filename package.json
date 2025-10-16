@@ -15,8 +15,7 @@
   "author": "Joschka de Cuveland <joschka.decuveland@digitalservice.bund.de>",
   "license": "MIT",
   "publishConfig": {
-    "access": "public",
-    "provenance": true
+    "access": "public"
   },
   "release": {
     "branches": [
@@ -39,7 +38,7 @@
     "@commitlint/config-conventional": "^20.0.0",
     "@tailwindcss/cli": "^4.1.14",
     "lefthook": "^1.13.6",
-    "semantic-release": "^24.2.9"
+    "semantic-release": "^25.0.1-beta.1"
   },
   "peerDependencies": {
     "@kern-ux/native": "^2.3.0",
