@@ -196,7 +196,7 @@
   --color-kern-violet-900: oklch(var(--kern-violet-900-lightness) var(--kern-violet-900-chroma) var(--kern-violet-900-hue));
   --color-kern-violet-950: oklch(var(--kern-violet-950-lightness) var(--kern-violet-950-chroma) var(--kern-violet-950-hue));
 
-  --color-kern-neutral-000: oklch(var(--kern-neutral-000-lightness) var(--kern-neutral-000-chroma) var(--kern-neutral-000-hue));
+  --color-kern-white: oklch(var(--kern-white-lightness) var(--kern-white-chroma) var(--kern-white-hue));
   --color-kern-neutral-025: oklch(var(--kern-neutral-025-lightness) var(--kern-neutral-025-chroma) var(--kern-neutral-025-hue));
   --color-kern-neutral-050: oklch(var(--kern-neutral-050-lightness) var(--kern-neutral-050-chroma) var(--kern-neutral-050-hue));
   --color-kern-neutral-100: oklch(var(--kern-neutral-100-lightness) var(--kern-neutral-100-chroma) var(--kern-neutral-100-hue));
@@ -217,49 +217,7 @@
   --color-kern-neutral-850: oklch(var(--kern-neutral-850-lightness) var(--kern-neutral-850-chroma) var(--kern-neutral-850-hue));
   --color-kern-neutral-900: oklch(var(--kern-neutral-900-lightness) var(--kern-neutral-900-chroma) var(--kern-neutral-900-hue));
   --color-kern-neutral-950: oklch(var(--kern-neutral-950-lightness) var(--kern-neutral-950-chroma) var(--kern-neutral-950-hue));
-  --color-kern-neutral-1000: oklch(var(--kern-neutral-1000-lightness) var(--kern-neutral-1000-chroma) var(--kern-neutral-1000-hue));
-
-  --color-kern-dataport-red-025: oklch(var(--kern-dataport-red-025-lightness) var(--kern-dataport-red-025-chroma) var(--kern-dataport-red-025-hue));
-  --color-kern-dataport-red-050: oklch(var(--kern-dataport-red-050-lightness) var(--kern-dataport-red-050-chroma) var(--kern-dataport-red-050-hue));
-  --color-kern-dataport-red-100: oklch(var(--kern-dataport-red-100-lightness) var(--kern-dataport-red-100-chroma) var(--kern-dataport-red-100-hue));
-  --color-kern-dataport-red-150: oklch(var(--kern-dataport-red-150-lightness) var(--kern-dataport-red-150-chroma) var(--kern-dataport-red-150-hue));
-  --color-kern-dataport-red-200: oklch(var(--kern-dataport-red-200-lightness) var(--kern-dataport-red-200-chroma) var(--kern-dataport-red-200-hue));
-  --color-kern-dataport-red-250: oklch(var(--kern-dataport-red-250-lightness) var(--kern-dataport-red-250-chroma) var(--kern-dataport-red-250-hue));
-  --color-kern-dataport-red-300: oklch(var(--kern-dataport-red-300-lightness) var(--kern-dataport-red-300-chroma) var(--kern-dataport-red-300-hue));
-  --color-kern-dataport-red-350: oklch(var(--kern-dataport-red-350-lightness) var(--kern-dataport-red-350-chroma) var(--kern-dataport-red-350-hue));
-  --color-kern-dataport-red-400: oklch(var(--kern-dataport-red-400-lightness) var(--kern-dataport-red-400-chroma) var(--kern-dataport-red-400-hue));
-  --color-kern-dataport-red-450: oklch(var(--kern-dataport-red-450-lightness) var(--kern-dataport-red-450-chroma) var(--kern-dataport-red-450-hue));
-  --color-kern-dataport-red-500: oklch(var(--kern-dataport-red-500-lightness) var(--kern-dataport-red-500-chroma) var(--kern-dataport-red-500-hue));
-  --color-kern-dataport-red-550: oklch(var(--kern-dataport-red-550-lightness) var(--kern-dataport-red-550-chroma) var(--kern-dataport-red-550-hue));
-  --color-kern-dataport-red-600: oklch(var(--kern-dataport-red-600-lightness) var(--kern-dataport-red-600-chroma) var(--kern-dataport-red-600-hue));
-  --color-kern-dataport-red-650: oklch(var(--kern-dataport-red-650-lightness) var(--kern-dataport-red-650-chroma) var(--kern-dataport-red-650-hue));
-  --color-kern-dataport-red-700: oklch(var(--kern-dataport-red-700-lightness) var(--kern-dataport-red-700-chroma) var(--kern-dataport-red-700-hue));
-  --color-kern-dataport-red-750: oklch(var(--kern-dataport-red-750-lightness) var(--kern-dataport-red-750-chroma) var(--kern-dataport-red-750-hue));
-  --color-kern-dataport-red-800: oklch(var(--kern-dataport-red-800-lightness) var(--kern-dataport-red-800-chroma) var(--kern-dataport-red-800-hue));
-  --color-kern-dataport-red-850: oklch(var(--kern-dataport-red-850-lightness) var(--kern-dataport-red-850-chroma) var(--kern-dataport-red-850-hue));
-  --color-kern-dataport-red-900: oklch(var(--kern-dataport-red-900-lightness) var(--kern-dataport-red-900-chroma) var(--kern-dataport-red-900-hue));
-  --color-kern-dataport-red-950: oklch(var(--kern-dataport-red-950-lightness) var(--kern-dataport-red-950-chroma) var(--kern-dataport-red-950-hue));
-
-  --color-kern-gray-025: oklch(var(--kern-gray-025-lightness) var(--kern-gray-025-chroma) var(--kern-gray-025-hue)); /* sic! only this gray with a */
-  --color-kern-grey-050: oklch(var(--kern-grey-050-lightness) var(--kern-grey-050-chroma) var(--kern-grey-050-hue));
-  --color-kern-grey-100: oklch(var(--kern-grey-100-lightness) var(--kern-grey-100-chroma) var(--kern-grey-100-hue));
-  --color-kern-grey-150: oklch(var(--kern-grey-150-lightness) var(--kern-grey-150-chroma) var(--kern-grey-150-hue));
-  --color-kern-grey-200: oklch(var(--kern-grey-200-lightness) var(--kern-grey-200-chroma) var(--kern-grey-200-hue));
-  --color-kern-grey-250: oklch(var(--kern-grey-250-lightness) var(--kern-grey-250-chroma) var(--kern-grey-250-hue));
-  --color-kern-grey-300: oklch(var(--kern-grey-300-lightness) var(--kern-grey-300-chroma) var(--kern-grey-300-hue));
-  --color-kern-grey-350: oklch(var(--kern-grey-350-lightness) var(--kern-grey-350-chroma) var(--kern-grey-350-hue));
-  --color-kern-grey-400: oklch(var(--kern-grey-400-lightness) var(--kern-grey-400-chroma) var(--kern-grey-400-hue));
-  --color-kern-grey-450: oklch(var(--kern-grey-450-lightness) var(--kern-grey-450-chroma) var(--kern-grey-450-hue));
-  --color-kern-grey-500: oklch(var(--kern-grey-500-lightness) var(--kern-grey-500-chroma) var(--kern-grey-500-hue));
-  --color-kern-grey-550: oklch(var(--kern-grey-550-lightness) var(--kern-grey-550-chroma) var(--kern-grey-550-hue));
-  --color-kern-grey-600: oklch(var(--kern-grey-600-lightness) var(--kern-grey-600-chroma) var(--kern-grey-600-hue));
-  --color-kern-grey-650: oklch(var(--kern-grey-650-lightness) var(--kern-grey-650-chroma) var(--kern-grey-650-hue));
-  --color-kern-grey-700: oklch(var(--kern-grey-700-lightness) var(--kern-grey-700-chroma) var(--kern-grey-700-hue));
-  --color-kern-grey-750: oklch(var(--kern-grey-750-lightness) var(--kern-grey-750-chroma) var(--kern-grey-750-hue));
-  --color-kern-grey-800: oklch(var(--kern-grey-800-lightness) var(--kern-grey-800-chroma) var(--kern-grey-800-hue));
-  --color-kern-grey-850: oklch(var(--kern-grey-850-lightness) var(--kern-grey-850-chroma) var(--kern-grey-850-hue));
-  --color-kern-grey-900: oklch(var(--kern-grey-900-lightness) var(--kern-grey-900-chroma) var(--kern-grey-900-hue));
-  --color-kern-grey-950: oklch(var(--kern-grey-950-lightness) var(--kern-grey-950-chroma) var(--kern-grey-950-hue));
+  --color-kern-black: oklch(var(--kern-black-lightness) var(--kern-black-chroma) var(--kern-black-hue));
 
   --color-kern-action-default: var(--kern-color-action-default);
   --color-kern-action-on-default: var(--kern-color-action-on-default);
@@ -273,8 +231,6 @@
   --color-kern-action-state-indicator-shade-hover: var(--kern-color-action-state-indicator-shade-hover);
   --color-kern-action-state-indicator-shade-active: var(--kern-color-action-state-indicator-shade-active);
   --color-kern-action-state-indicator-tint: var(--kern-color-action-state-indicator-tint);
-  --color-kern-action-state-indicator-tint-hover: var(--kern-color-action-state-indicator-tint-hover);
-  --color-kern-action-state-indicator-tint-active: var(--kern-color-action-state-indicator-tint-active);
 
   --color-kern-feedback-danger: var(--kern-color-feedback-danger);
   --color-kern-feedback-danger-background: var(--kern-color-feedback-danger-background);
@@ -302,8 +258,6 @@
   --color-kern-layout-background-hued: var(--kern-color-layout-background-hued);
   --color-kern-layout-background-overlay: var(--kern-color-layout-background-overlay);
   --color-kern-layout-background-inverted: var(--kern-color-layout-background-inverted);
-
-  --color-kern-theme-action-default: var(--theme-action-default); /* sic! no kern prefix */
 
 
   /* sizes: --kern-0 - --kern-1920 */
