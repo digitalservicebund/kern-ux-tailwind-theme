@@ -219,6 +219,27 @@
   --color-kern-neutral-950: var(--kern-color-neutral-950);
   --color-kern-black: var(--kern-color-black);
 
+  --color-kern-grey-025: var(--kern-color-grey-025);
+  --color-kern-grey-050: var(--kern-color-grey-050);
+  --color-kern-grey-100: var(--kern-color-grey-100);
+  --color-kern-grey-150: var(--kern-color-grey-150);
+  --color-kern-grey-200: var(--kern-color-grey-200);
+  --color-kern-grey-250: var(--kern-color-grey-250);
+  --color-kern-grey-300: var(--kern-color-grey-300);
+  --color-kern-grey-350: var(--kern-color-grey-350);
+  --color-kern-grey-400: var(--kern-color-grey-400);
+  --color-kern-grey-450: var(--kern-color-grey-450);
+  --color-kern-grey-500: var(--kern-color-grey-500);
+  --color-kern-grey-550: var(--kern-color-grey-550);
+  --color-kern-grey-600: var(--kern-color-grey-600);
+  --color-kern-grey-650: var(--kern-color-grey-650);
+  --color-kern-grey-700: var(--kern-color-grey-700);
+  --color-kern-grey-750: var(--kern-color-grey-750);
+  --color-kern-grey-800: var(--kern-color-grey-800);
+  --color-kern-grey-850: var(--kern-color-grey-850);
+  --color-kern-grey-900: var(--kern-color-grey-900);
+  --color-kern-grey-950: var(--kern-color-grey-950);
+
   --color-kern-action-default: var(--kern-color-action-default);
   --color-kern-action-on-default: var(--kern-color-action-on-default);
   --color-kern-action-visited: var(--kern-color-action-visited);
