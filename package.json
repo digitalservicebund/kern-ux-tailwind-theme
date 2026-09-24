@@ -22,7 +22,7 @@
     "lefthook": "^2.1.2"
   },
   "peerDependencies": {
-    "@kern-ux/native": "^2.4.0",
+    "@kern-ux/native": "^2.8.0",
     "tailwindcss": "^4.1.12"
   }
 }
