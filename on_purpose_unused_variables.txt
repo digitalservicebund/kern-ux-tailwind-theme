@@ -1,4 +1,5 @@
-on_purpose_unused_variables.txt--kern-0
+on_purpose_unused_variables.txt
+--kern-0
 --kern-1
 --kern-10
 --kern-1024
