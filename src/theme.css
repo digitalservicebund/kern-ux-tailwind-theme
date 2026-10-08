@@ -345,9 +345,7 @@
   --text-kern-static-small: var(--kern-typography-font-size-small-static);
   /* sic! no line-height for small */
   --text-kern-static-medium: var(--kern-typography-font-size-medium-static);
-  --text-kern-static-medium--line-height: var(
-    --kern-typography-line-height-medium-static
-  );
+  --text-kern-static-medium--line-height: var(--kern-typography-line-height-medium-static);
   --text-kern-static-large: var(--kern-typography-font-size-large-static);
   --text-kern-static-large--line-height: var(--kern-typography-line-height-large-static);
   --text-kern-adaptive-medium: var(--kern-typography-font-size-medium-adaptive);
