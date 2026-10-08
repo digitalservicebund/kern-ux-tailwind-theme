@@ -245,38 +245,20 @@
   --color-kern-action-visited: var(--kern-color-action-visited);
   --color-kern-action-focus-default: var(--kern-color-action-focus-default);
 
-  --color-kern-action-state-indicator-default: var(
-    --kern-color-action-state-indicator-default
-  );
-  --color-kern-action-state-indicator-shade: var(
-    --kern-color-action-state-indicator-shade
-  );
-  --color-kern-action-state-indicator-shade-hover: var(
-    --kern-color-action-state-indicator-shade-hover
-  );
-  --color-kern-action-state-indicator-shade-active: var(
-    --kern-color-action-state-indicator-shade-active
-  );
-  --color-kern-action-state-indicator-tint: var(
-    --kern-color-action-state-indicator-tint
-  );
+  --color-kern-action-state-indicator-default: var(--kern-color-action-state-indicator-default);
+  --color-kern-action-state-indicator-shade: var(--kern-color-action-state-indicator-shade);
+  --color-kern-action-state-indicator-shade-hover: var(--kern-color-action-state-indicator-shade-hover);
+  --color-kern-action-state-indicator-shade-active: var(--kern-color-action-state-indicator-shade-active);
+  --color-kern-action-state-indicator-tint: var(--kern-color-action-state-indicator-tint);
 
   --color-kern-feedback-danger: var(--kern-color-feedback-danger);
-  --color-kern-feedback-danger-background: var(
-    --kern-color-feedback-danger-background
-  );
+  --color-kern-feedback-danger-background: var(--kern-color-feedback-danger-background);
   --color-kern-feedback-info: var(--kern-color-feedback-info);
-  --color-kern-feedback-info-background: var(
-    --kern-color-feedback-info-background
-  );
+  --color-kern-feedback-info-background: var(--kern-color-feedback-info-background);
   --color-kern-feedback-success: var(--kern-color-feedback-success);
-  --color-kern-feedback-success-background: var(
-    --kern-color-feedback-success-background
-  );
+  --color-kern-feedback-success-background: var(--kern-color-feedback-success-background);
   --color-kern-feedback-warning: var(--kern-color-feedback-warning);
-  --color-kern-feedback-warning-background: var(
-    --kern-color-feedback-warning-background
-  );
+  --color-kern-feedback-warning-background: var(--kern-color-feedback-warning-background);
 
   --color-kern-form-input-background: var(--kern-color-form-input-background);
   --color-kern-form-input-border: var(--kern-color-form-input-border);
@@ -287,16 +269,10 @@
   --color-kern-layout-text-inverse: var(--kern-color-layout-text-inverse);
   --color-kern-layout-text-muted: var(--kern-color-layout-text-muted);
 
-  --color-kern-layout-background-default: var(
-    --kern-color-layout-background-default
-  );
+  --color-kern-layout-background-default: var(--kern-color-layout-background-default);
   --color-kern-layout-background-hued: var(--kern-color-layout-background-hued);
-  --color-kern-layout-background-overlay: var(
-    --kern-color-layout-background-overlay
-  );
-  --color-kern-layout-background-inverted: var(
-    --kern-color-layout-background-inverted
-  );
+  --color-kern-layout-background-overlay: var(--kern-color-layout-background-overlay);
+  --color-kern-layout-background-inverted: var(--kern-color-layout-background-inverted);
 
   /* sizes: --kern-0 - --kern-1920 */
   --spacing: 0.0625rem;
@@ -313,15 +289,9 @@
   --spacing-kern-dimension-4x-large: var(--kern-metric-dimension-4x-large);
   --spacing-kern-dimension-5x-large: var(--kern-metric-dimension-5x-large);
 
-  --spacing-kern-dimension-media-small: var(
-    --kern-metric-dimension-media-small
-  );
-  --spacing-kern-dimension-media-default: var(
-    --kern-metric-dimension-media-default
-  );
-  --spacing-kern-dimension-media-large: var(
-    --kern-metric-dimension-media-large
-  );
+  --spacing-kern-dimension-media-small: var(--kern-metric-dimension-media-small);
+  --spacing-kern-dimension-media-default: var(--kern-metric-dimension-media-default);
+  --spacing-kern-dimension-media-large: var(--kern-metric-dimension-media-large);
 
   /* --kern-metric-screen-size */
   --spacing-kern-screen-size: var(--kern-metric-screen-size);
@@ -379,29 +349,15 @@
     --kern-typography-line-height-medium-static
   );
   --text-kern-static-large: var(--kern-typography-font-size-large-static);
-  --text-kern-static-large--line-height: var(
-    --kern-typography-line-height-large-static
-  );
+  --text-kern-static-large--line-height: var(--kern-typography-line-height-large-static);
   --text-kern-adaptive-medium: var(--kern-typography-font-size-medium-adaptive);
-  --text-kern-adaptive-medium--line-height: var(
-    --kern-typography-line-height-medium-adaptive
-  );
+  --text-kern-adaptive-medium--line-height: var(--kern-typography-line-height-medium-adaptive);
   --text-kern-adaptive-large: var(--kern-typography-font-size-large-adaptive);
-  --text-kern-adaptive-large--line-height: var(
-    --kern-typography-line-height-large-adaptive
-  );
-  --text-kern-adaptive-x-large: var(
-    --kern-typography-font-size-x-large-adaptive
-  );
-  --text-kern-adaptive-x-large--line-height: var(
-    --kern-typography-line-height-x-large-adaptive
-  );
-  --text-kern-adaptive-2x-large: var(
-    --kern-typography-font-size-2x-large-adaptive
-  );
-  --text-kern-adaptive-2x-large--line-height: var(
-    --kern-typography-line-height-2x-large-adaptive
-  );
+  --text-kern-adaptive-large--line-height: var(--kern-typography-line-height-large-adaptive);
+  --text-kern-adaptive-x-large: var(--kern-typography-font-size-x-large-adaptive);
+  --text-kern-adaptive-x-large--line-height: var(--kern-typography-line-height-x-large-adaptive);
+  --text-kern-adaptive-2x-large: var(--kern-typography-font-size-2x-large-adaptive);
+  --text-kern-adaptive-2x-large--line-height: var(--kern-typography-line-height-2x-large-adaptive);
 
   /* font-weight is compatible between KERN and Tailwind */
 
